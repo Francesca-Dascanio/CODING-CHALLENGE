@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(./img/sfondo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1000px;
+  margin:auto;
+}
+
+.rettangolo {
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 80px 60px;
+  font-family: serif;
+}
+
+.intestazione {
+  text-align: center;
+  font-style: bold;
+  color: #0ed40e;
+}
+
+.logo {
+  width: 15%;
+  height: 15%;
+}
+
+.menu {
+  background-color: #0ed40e;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #0ed40e;
+  padding: 4px;
+  text-align: center;
+}
+
+button {
+  font-size: 10px;
+}
+
+.sezione {
+  margin-top: 30px;
+  font-style: bold;
+  color: white;
+  padding-right: .25em;
+}
+
+.tipo:before {
+  content: "\25FD";
+}
+
+.tipo {
+  font-size: 20px;
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
+
+.indirizzo.stato {
+  font-size: 10px;
+}
+
+.carica {
+  height: 20px;
+  border-radius: 5px;
+}
+
+#carica1 {
+ width: 40%;
+ background-color: #f5b453;
+ border: 1px solid #f5b453;
+}
+
+#carica2 {
+ width: 70%;
+ background-color: #0ed40e;
+ border: 1px solid #0ed40e;
+}
+
+#carica3 {
+ width: 20%;
+ background-color: #be4141;
+ border: 1px solid #be4141;
+}
